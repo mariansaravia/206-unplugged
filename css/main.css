@@ -419,6 +419,37 @@ footer .copyright{
 }
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles here*/
+.content-wrapper{
+  	max-width: 960px;
+}
+.hero-area h1{
+	width: 60%;
+}
+aside .content-wrapper{
+	justify-content: space-around;
+}
+aside .content-wrapper .form-description,
+aside .content-wrapper .form{
+	width: 50%;
+}
+.features h2{
+	width: 80%;
+}
+.features article{
+	flex-basis: 33%;
+}
+.reviews article div{
+	width: 40%	
+}
+/* aboutpage*/
+.mission h2,
+.contact-section .contact-wrapper h2{
+	width: 80%;
+}
+/* faqpage*/
+.faq h2{
+	width: 100%;
+}
 }
 
 
