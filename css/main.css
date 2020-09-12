@@ -120,6 +120,12 @@ textarea {
   font-size: 0.875em;
   line-height: 1.285em;
  }
+ img{
+  width: 100%;
+ }
+ figure{
+  margin: 0;
+ }
  address {
   font-style: normal;
  }
@@ -170,6 +176,13 @@ header nav ul {
 header nav ul li {
   font-size: 1.125em;
 }
+header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 footer {
   flex-direction: column;
   text-align: center;
@@ -203,6 +216,9 @@ footer .copyright {
 	display: flex;
  	justify-content: center;
  	flex-flow: row wrap;
+  background: url(/Users/mariansaravia/Desktop/coding-responsive-websites/206-unplugged/img/jake-unsplash.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
 .hero-area h1 {
   font-size: 2.25em;
@@ -242,6 +258,8 @@ input[type=button] {
   text-transform: uppercase;
 }
 .features {
+  background: url(/Users/mariansaravia/Desktop/coding-responsive-websites/206-unplugged/img/rawpixel.jpg) center no-repeat #333;
+  background-size: cover;
 	display: flex;
  	justify-content: center;
  	flex-flow: row wrap;
@@ -426,6 +444,7 @@ h3 {
   font-size: 1.5em;
   line-height: 1.25;
 }
+/* header*/ 
 header {
 	padding: 33px 0;
 	justify-content: space-around;
@@ -445,6 +464,9 @@ header nav ul {
 }
 .header-divider {
 	display: none;
+}
+.hero-area{
+  min-height: 600px;
 }
 .hero-area h1 {
   font-size: 3em;
@@ -485,6 +507,7 @@ aside .content-wrapper .form {
 .reviews h2 {
   width: 85%;
 }
+.reviews article figure,
 .reviews article div {
 	width: 49%;
 }
